@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTipProject</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="tip_percentage">15%</string>
+    <string name="tip">Tip</string>
+    <string name="total">Total</string>
+</resources>
