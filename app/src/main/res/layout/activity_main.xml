@@ -9,7 +9,7 @@
 
     <EditText
         android:id="@+id/heightEditText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
@@ -21,11 +21,10 @@
     <TextView
         android:id="@+id/heightTextView"
         android:layout_width="match_parent"
-        android:layout_height="61dp"
+        android:layout_height="wrap_content"
         android:layout_row="0"
         android:layout_column="0"
         android:layout_columnSpan="2"
-        android:layout_gravity="fill_horizontal"
         android:background="@color/amount_background"
         android:hint="@string/enter_height"
         android:padding="12dp" />
@@ -35,8 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_row="1"
-        android:layout_column="1"
-        android:layout_columnSpan="2"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
         android:layout_gravity="fill_horizontal"
         android:digits="0123456789"
         android:ems="10"
@@ -49,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_row="1"
         android:layout_column="0"
-        android:layout_columnSpan="2"
+        android:layout_columnSpan="1"
         android:layout_gravity="fill_horizontal"
         android:background="@color/amount_background"
         android:hint="@string/enter_weight"
@@ -61,34 +60,36 @@
         android:layout_height="wrap_content"
         android:layout_row="2"
         android:layout_column="0"
-        android:layout_gravity="right"
+        android:layout_gravity="center_horizontal"
         android:text="@string/tip" />
 
     <TextView
-        android:id="@+id/tipTextView"
-        android:layout_width="wrap_content"
+        android:id="@+id/bmiTextView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_row="2"
-        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
         android:layout_gravity="fill_horizontal"
         android:padding="30dp"
-        android:text="TextView" />
+        android:text="@string/tip" />
 
     <TextView
         android:id="@+id/totalLabelTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_row="3"
+        android:layout_row="4"
         android:layout_column="0"
-        android:layout_gravity="right"
+        android:layout_gravity="center_horizontal"
         android:text="@string/total" />
 
     <TextView
         android:id="@+id/totalTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="fill_horizontal"
+        android:layout_row="5"
+        android:layout_column="0"
         android:padding="30dp"
-        android:text="TextView" />
+        android:text="@string/total" />
 
 </android.widget.GridLayout>
