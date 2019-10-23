@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BottomNav</string>
+    <string name="title_home">Welcome</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="category">Category</string>
+    <string name="urcategory">Your category</string>
+    <string name="bmi">BMI</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="Miffin">Miffin</string>
+    <string name="age">Age</string>
+    <string name="pick_gender">Choose your gender</string>
+    <string name="calories">Calories</string>
+</resources>
