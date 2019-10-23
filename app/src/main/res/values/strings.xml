@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">MyBMIProject</string>
-    <string name="enter_height">Enter Height</string>
-    <string name="enter_weight">Enter Weight</string>
-    <string name="tip_percentage">15%</string>
-    <string name="tip">BMI</string>
-    <string name="total">Category</string>
-</resources>
