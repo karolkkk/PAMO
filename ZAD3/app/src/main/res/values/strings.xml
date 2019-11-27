@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BottomNav</string>
+    <string name="title_home">Welcome</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="enter_height">Enter Height</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="category">Category</string>
+    <string name="urcategory">Your category</string>
+    <string name="bmi">BMI</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="Miffin">Miffin</string>
+    <string name="age">Age</string>
+    <string name="pick_gender">Choose your gender</string>
+    <string name="calories">Calories</string>
+    <string name="image_description">Image of the current food in the quiz</string>
+    <string name="guess_food">Am I good for you?</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="Quiz">Quiz</string>
+    <string name="Button">Not healthy</string>
+    <string name="Button1">Healthy</string>
+    <string name="Button2">Not so bad</string>
+    <string name="Button3">Poison</string>
+    <string name="incorrect_answer">Incorrect!</string>
+    <string name="correct_answer">correct!</string>
+    <string name="reset_quiz">Reset quiz</string>
+    <string name="results">%1$d guesses, %2$.02f%% correct</string>
+    <string name="title_chart">Chart</string>
+
+
+</resources>
